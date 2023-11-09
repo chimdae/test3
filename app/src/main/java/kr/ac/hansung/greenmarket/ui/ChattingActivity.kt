@@ -15,7 +15,7 @@ class ChattingActivity : AppCompatActivity() {
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_menu)
 
-        bottomNav.selectedItemId = R.id.chatting
+        bottomNav.selectedItemId = R.id.chatting //아니 뭔데
 
         bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
